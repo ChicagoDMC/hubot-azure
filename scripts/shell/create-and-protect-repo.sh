@@ -13,11 +13,11 @@ REPO_NAME=$1   # Name of the GitHub Repository
 API_TOKEN=$2   # GitHub Personal Access Token
 BOT_NAME=$3    # Name of the Hubot pulled from Env
 BOT_EMAIL=$4   # Email for the Hubot pulled from Env
-ORG_NAME='Migarjo-Test-Org'   # Name of the master Org
-TEMPLATE_REPO='dow-dmc'       # Teplate repo to clone
-TEAM_ID='2237075'             # Team ID for Dow
+ORG_NAME='ChicagoDMC'   # Name of the master Org
+TEMPLATE_REPO='development'       # Teplate repo to clone
+TEAM_ID='2654904'       # Team ID for Dow
 LOG_FILE='createRepo.log'          # File to push output
-STATUS_CHECK_NAME='Some Status Check'  # Name of the default status check that should pass
+STATUS_CHECK_NAME="VSTS: $REPO_NAME"  # Name of the default status check that should pass
 
 ##############
 #### MAIN ####
